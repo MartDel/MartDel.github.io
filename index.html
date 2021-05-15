@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Crafting App</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <center>
+            <div id="app" style="display: none;">
+                <input v-show="!show_recipe" @keydown="search" type="search" name="search" placeholder="Rechercher un item" />
+                <h2 v-show="show_recipe" @click="show_recipe = false">{{ main_item_name }}</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>{{ show_recipe ? 'Fait ?' : 'ID' }}</td>
+                            <td>Nom</td>
+                            <td>{{ show_recipe ? 'Quantité' : 'Craftable ?' }}</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-if="!show_recipe" v-for="item in list" @click="selectItem">
+                            <td>{{ item.id }}</td>
+                            <td>{{ item.name }}</td>
+                            <td>{{ item.recipe === null ? 'NON' : 'OUI' }}</td>
+                        </tr>
+                        <tr v-if="show_recipe" v-for="item in Object.keys(recipe)">
+                            <td><input type="checkbox" name="done" /></td>
+                            <td>{{ item }}</td>
+                            <td>{{ recipe[item] }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </center>
+
+        <!-- VueJS -->
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <script type="text/javascript" src="items.js"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
