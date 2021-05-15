@@ -12,6 +12,7 @@ input{
     border-radius: 5px;
     margin-top: 10px;
 }
+input:focus{ outline: none; }
 
 h2{
     cursor: pointer;
@@ -40,4 +41,10 @@ tr td:first-child { border-left-style: solid; }
 
 table tbody td{
     cursor: pointer;
+}
+
+@media (hover: hover) {
+    table tbody tr:hover{
+        background-color: rgba(255, 255, 255, 0.2);
+    }
 }
