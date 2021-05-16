@@ -7,6 +7,13 @@ const items = [
     {name: 'Titane', recipe: null},
     {name: 'Or', recipe: null},
     {name: 'Soufre cristallin', recipe: null},
+    {name: 'Plomb', recipe: null},
+    {name: 'Diamant', recipe: null},
+    {name: 'Lithium', recipe: null},
+    {name: 'Rubis', recipe: null},
+    {name: 'Nickel', recipe: null},
+    {name: 'Disthène', recipe: null},
+    {name: 'Spiralière coupée', recipe: null},
     {name: 'Plante à rubans', recipe: null},
     {name: 'Pochon', recipe: null},
     {name: 'Echantillon de corail plat', recipe: null},
@@ -216,6 +223,62 @@ const items = [
             {name: 'Pile', amount: 1},
             {name: 'Cuivre', amount: 1},
             {name: 'Titane', amount: 1}
+        ]
+    },{
+        name: 'Verre émaillé',
+        recipe: [
+            {name: 'Verre', amount: 1},
+            {name: 'Plomb', amount: 1},
+            {name: 'Diamant', amount: 1}
+        ]
+    },{
+        name: 'Lingot de plasticier',
+        recipe: [
+            {name: 'Lingot de titane', amount: 1},
+            {name: 'Lithium', amount: 2}
+        ]
+    },{
+        name: 'Fibres synthétiques',
+        recipe: [
+            {name: 'Rubis', amount: 1},
+            {name: 'Spiralière coupée', amount: 1}
+        ]
+    },{
+        name: 'Kit de cablage avancé',
+        recipe: [
+            {name: 'Kit de cablage', amount: 1},
+            {name: 'Circuit intégré', amount: 1}
+        ]
+    },{
+        name: 'Aquatracteur',
+        recipe: [
+            {name: 'Lingot de titane', amount: 1},
+            {name: 'Kit de cablage avancé', amount: 1},
+            {name: 'Verre', amount: 2},
+            {name: 'Plomb', amount: 3},
+            {name: 'Batterie', amount: 1}
+        ]
+    },{
+        name: 'Aquatracteur MK1',
+        recipe: [
+            {name: 'Lingot de plastacier', amount: 1},
+            {name: 'Verre émaillé', amount: 2}
+        ]
+    },{
+        name: 'Aquatracteur MK2',
+        recipe: [
+            {name: 'Rubis', amount: 1},
+            {name: 'Verre émaillé', amount: 1},
+            {name: 'Fibres synthétiques', amount: 1},
+            {name: 'Aquatracteur MK1', amount: 1}
+        ]
+    },{
+        name: 'Aquatracteur MK3',
+        recipe: [
+            {name: 'Nickel', amount: 3},
+            {name: 'Disthène', amount: 2},
+            {name: 'Lingot de plastacier', amount: 1},
+            {name: 'Aquatracteur MK2', amount: 1}
         ]
     }
 ]
