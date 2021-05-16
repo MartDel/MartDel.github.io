@@ -60,7 +60,7 @@ const items = [
     },{
         name: 'Boussole',
         recipe: [
-            {name: 'Fil de fibre', amount: 1},
+            {name: 'Fil de cuivre', amount: 1},
             {name: 'Kit de cablage', amount: 1}
         ]
     },{
