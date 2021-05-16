@@ -177,5 +177,20 @@ const items = [
         recipe: [
             {name: 'Titane', amount: 2}
         ]
+    },{
+        name: 'Paillasse',
+        recipe: [
+            {name: 'Titane', amount: 2}
+        ]
+    },{
+        name: 'Bureau',
+        recipe: [
+            {name: 'Titane', amount: 1}
+        ]
+    },{
+        name: 'Poubelle',
+        recipe: [
+            {name: 'Titane', amount: 2}
+        ]
     }
 ]
