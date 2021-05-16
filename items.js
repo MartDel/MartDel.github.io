@@ -160,5 +160,22 @@ const items = [
             {name: 'Caoutchouc en silicone', amount: 1},
             {name: 'Titane', amount: 1}
         ]
+    },{
+        name: 'Balise',
+        recipe: [
+            {name: 'Cuivre', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
+    },{
+        name: 'Projecteur industriel',
+        recipe: [
+            {name: 'Verre', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
+    },{
+        name: 'Distributeur automatique de café',
+        recipe: [
+            {name: 'Titane', amount: 2}
+        ]
     }
 ]
