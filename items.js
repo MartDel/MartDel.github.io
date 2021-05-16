@@ -131,5 +131,13 @@ const items = [
             {name: 'Soufre cristallin', amount: 1},
             {name: 'Titane', amount: 1}
         ]
+    },{
+        name: 'Seaglide',
+        recipe: [
+            {name: 'Pile', amount: 1},
+            {name: 'Lubrifiant', amount: 1},
+            {name: 'Fil de cuivre', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
     }
 ]
