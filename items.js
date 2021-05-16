@@ -192,5 +192,30 @@ const items = [
         recipe: [
             {name: 'Titane', amount: 2}
         ]
+    },{
+        name: 'Lingot de titane',
+        recipe: [
+            {name: 'Titane', amount: 5}
+        ]
+    },{
+        name: 'Batterie',
+        recipe: [
+            {name: 'Pile', amount: 2},
+            {name: 'Caoutchouc en silicone', amount: 1}
+        ]
+    },{
+        name: 'Baie à véhicule mobile',
+        recipe: [
+            {name: 'Lingot de titane', amount: 1},
+            {name: 'Circuit intégré', amount: 1},
+            {name: 'Lubrifiant', amount: 1}
+        ]
+    },{
+        name: 'Piège à gravité',
+        recipe: [
+            {name: 'Pile', amount: 1},
+            {name: 'Cuivre', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
     }
 ]
