@@ -139,5 +139,26 @@ const items = [
             {name: 'Fil de cuivre', amount: 1},
             {name: 'Titane', amount: 1}
         ]
+    },{
+        name: 'Thermos à café',
+        recipe: [
+            {name: 'Verre', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
+    },{
+        name: 'Bâton lumineux',
+        recipe: [
+            {name: 'Pile', amount: 1},
+            {name: 'Verre', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
+    },{
+        name: 'Détecteur de minéraux',
+        recipe: [
+            {name: 'Pile', amount: 1},
+            {name: 'Fil de cuivre', amount: 1},
+            {name: 'Caoutchouc en silicone', amount: 1},
+            {name: 'Titane', amount: 1}
+        ]
     }
 ]
