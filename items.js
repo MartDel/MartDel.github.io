@@ -7,6 +7,7 @@ const items = [
     {name: 'Titane', recipe: null},
     {name: 'Soufre cristallin', recipe: null},
     {name: 'Plante à rubans', recipe: null},
+    {name: 'Pochon', recipe: null},
     {
         name: 'Maille de fibre',
         recipe: [
@@ -87,6 +88,17 @@ const items = [
         name: 'Casier étanche',
         recipe: [
             {name: 'Titane', amount: 4}
+        ]
+    },{
+        name: 'Eau filtrée',
+        recipe: [
+            {name: 'Pochon', amount: 1}
+        ]
+    },{
+        name: 'Poche d\'aire',
+        recipe: [
+            {name: 'Pochon', amount: 1},
+            {name: 'Caoutchouc en silicone', amount: 1}
         ]
     }
 ]
