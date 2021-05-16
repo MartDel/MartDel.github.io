@@ -47,6 +47,10 @@ const app = new Vue({
             let result = {}
             recipe.forEach((item) => {
                 const root_item = getItemByName(item.name)
+                if(!root_item) {
+                    alert('Error')
+                    return {}
+                }
                 if (root_item.recipe === null) {
                     if (!result.hasOwnProperty(item.name)) result[item.name] = item.amount
                     else result[item.name] += item.amount
