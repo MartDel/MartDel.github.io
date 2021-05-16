@@ -115,7 +115,7 @@ const items = [
     },{
         name: 'Lubrifiant',
         recipe: [
-            {name: 'Graine de vigne d\'orin', amount: 2}
+            {name: 'Graine de vigne d\'orin', amount: 1}
         ]
     },{
         name: 'Circuit intégré',
