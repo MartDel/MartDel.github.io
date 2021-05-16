@@ -232,7 +232,7 @@ const items = [
             {name: 'Diamant', amount: 1}
         ]
     },{
-        name: 'Lingot de plasticier',
+        name: 'Lingot de plastacier',
         recipe: [
             {name: 'Lingot de titane', amount: 1},
             {name: 'Lithium', amount: 2}
