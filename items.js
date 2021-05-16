@@ -74,7 +74,7 @@ const items = [
             {name: 'Verre', amount: 1}
         ]
     },{
-        name: 'Lampe de poche',
+        name: 'Couteau de survie',
         recipe: [
             {name: 'Caoutchouc en silicone', amount: 1},
             {name: 'Titane', amount: 1}
