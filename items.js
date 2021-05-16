@@ -5,9 +5,11 @@ const items = [
     {name: 'Cuivre', recipe: null},
     {name: 'Argent', recipe: null},
     {name: 'Titane', recipe: null},
+    {name: 'Or', recipe: null},
     {name: 'Soufre cristallin', recipe: null},
     {name: 'Plante à rubans', recipe: null},
     {name: 'Pochon', recipe: null},
+    {name: 'Echantillon de corail plat', recipe: null},
     {
         name: 'Maille de fibre',
         recipe: [
@@ -99,6 +101,35 @@ const items = [
         recipe: [
             {name: 'Pochon', amount: 1},
             {name: 'Caoutchouc en silicone', amount: 1}
+        ]
+    },{
+        name: 'Tuyau',
+        recipe: [
+            {name: 'Titane', amount: 2}
+        ]
+    },{
+        name: 'Pompe à air flottante',
+        recipe: [
+            {name: 'Titane', amount: 2}
+        ]
+    },{
+        name: 'Lubrifiant',
+        recipe: [
+            {name: 'Graine de vigne d\'orin', amount: 2}
+        ]
+    },{
+        name: 'Circuit intégré',
+        recipe: [
+            {name: 'Echantillon de corail plat', amount: 2},
+            {name: 'Or', amount: 1},
+            {name: 'Fil de cuivre', amount: 1}
+        ]
+    },{
+        name: 'Outil de réparation',
+        recipe: [
+            {name: 'Caoutchouc en silicone', amount: 1},
+            {name: 'Soufre cristallin', amount: 1},
+            {name: 'Titane', amount: 1}
         ]
     }
 ]
