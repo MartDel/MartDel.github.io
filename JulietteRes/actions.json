@@ -1,0 +1,24 @@
+[
+	{
+		"id": 12356789,
+		"app_name": "Atom",
+		"actions": [
+			{
+				"id": "d1dcfaab-6b59-4c78-8fd3-be2d25641d04",
+				"name": "Copy",
+				"usage_name": "copy"
+			}
+		]
+	},
+	{
+		"id": null,
+		"app_name": null,
+		"actions": [
+			{
+				"id": "dc9d1f6c-84a2-4f43-97b0-69015dc179b1",
+				"name": "Paste",
+				"usage_name": "paste"
+			}
+		]
+	}
+]
